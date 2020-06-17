@@ -19,6 +19,13 @@ public class Main {
         healthyburger.itemizedHamburger();
         System.out.format("Total Healthy burger price is "+healthyburger.itemizedHamburger()+"$.\n");
 
+        DeluxeBurger db = new DeluxeBurger();
+        db.itemizedHamburger();
+        System.out.format("Total Deluxe burger price is "+db.itemizedHamburger()+"$.\n");
+
+        db.addHamburgerAddition3("pickle",3); // dont want to allow in deluxe burger.
+        db.itemizedHamburger();
+
 
     }
 }

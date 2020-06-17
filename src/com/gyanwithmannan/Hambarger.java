@@ -47,7 +47,7 @@ public class Hambarger {
 
     public double itemizedHamburger(){
         double hamburgerPrice = this.price;
-        System.out.println(this.name +" Hamburger, On a roll "+this.typeOfRoll+" And the price is "+this.price+"$.");
+        System.out.println(this.name +" Hamburger, On a "+this.typeOfRoll+" Roll with "+this.meat+" And the price is "+this.price+"$.");
 
         if(this.additionItem1Name != null){
             hamburgerPrice += this.additionItem1Price;
